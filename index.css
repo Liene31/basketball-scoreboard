@@ -49,4 +49,5 @@ span {
   /* font-weight: <weight>; */
   font-style: normal;
   letter-spacing: 1px;
+  cursor: pointer;
 }
