@@ -3,12 +3,16 @@ body {
 }
 
 .container {
-  display: flex;
-  justify-content: space-around;
   background: #1b244a;
   width: 500px;
   margin: 50px auto;
   border-radius: 5px;
+  padding-bottom: 50px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
 }
 
 h3 {
@@ -50,4 +54,18 @@ span {
   font-style: normal;
   letter-spacing: 1px;
   cursor: pointer;
+}
+
+button {
+  display: block;
+  margin: auto;
+  padding: 8px 20px;
+  border-radius: 5px;
+  border: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+  background: #9aabd8;
+  color: #eeeeee;
+  font-size: 20px;
+  font-weight: 600;
 }
