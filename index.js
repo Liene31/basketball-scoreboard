@@ -55,3 +55,16 @@ guestAddTwo.addEventListener("click", addTwoPointGuest);
 
 let guestAddThree = document.getElementById("guest-add-three");
 guestAddThree.addEventListener("click", addThreePointGuest);
+
+// RESET BUTTON
+
+function resetScore() {
+  homeScoreEl.innerText = 0;
+  guestScoreEl.innerText = 0;
+
+  homeScore = 0;
+  guestScore = 0;
+}
+
+let resetbutton = document.getElementById("reset-btn");
+resetbutton.addEventListener("click", resetScore);
