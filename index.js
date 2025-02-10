@@ -14,8 +14,16 @@ function addTwoPointHome() {
   homeScoreEl.innerText = homeScore;
 }
 
+function addThreePointHome() {
+  homeScore += 3;
+  homeScoreEl.innerText = homeScore;
+}
+
 let homeAddOne = document.getElementById("home-add-one");
 homeAddOne.addEventListener("click", addOnePointHome);
 
-let homeAddTwo = document.getElementById("home-add-one");
-homeAddOne.addEventListener("click", addTwoPointHome);
+let homeAddTwo = document.getElementById("home-add-two");
+homeAddTwo.addEventListener("click", addTwoPointHome);
+
+let homeAddThree = document.getElementById("home-add-three");
+homeAddThree.addEventListener("click", addThreePointHome);
